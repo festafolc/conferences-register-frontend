@@ -1,0 +1,45 @@
+{
+    "thumbnail" : "Sistema de Registo de Conferências",
+    "navbarHome" : "Início",
+    "navbarAbout" : "Sobre Nós",
+    "navbarContact" : "Contacto",
+    "navbarConferences" : "CONFERÊNCIAS",
+    "navbarAdmin" : "ADMINISTRAÇAO",
+
+
+    "about" : "Sobre",
+    "us" : "Nós",
+
+    "whyUs" : "Por Que Nós",
+    "whyUsP" : "A Universidade Autónoma de Lisboa oferece conferências de temática variada e atual para conhecer as últimas novedades do presente e futuro da sociedade.",
+    "whoAreWe" : "Quem Somos Nós",
+    "whoAreWeP" : "O Sistema de Registo de Conferências é uma plataforma da Universidade Autónoma de Lisboa para se inscrever em qualquer conferência que oferecemos e assim estar sempre atualizado.",
+    "whatWeDo" : "O Que Fazemos",
+    "whatWeDoP" : "Nossos pesquisadores estão constantemente trabalhando nas questões mais atuais das ciências sociais, econômicas e tecnologias. Também realizamos conferências com empresas que mudam o mundo.",
+    "ualP" : "A Universidade Autónoma de Lisboa está sempre comprometida com a divulgaçao do conhecemento.",
+
+    "informationsOf" : "Informações de",
+    "informationsContact" : "Contacto",
+    "phone" : "Telefone",
+    "informationsEmail" : "Correio",
+    "address" : "Endereço",
+
+    "footerC" : "S",
+    "foorterOnference" : "istema de",
+    "footerEgisto" : "egisto de",
+    "footerS" : "C",
+    "footeYstem" : "onferência",
+    "footerSolution" : "A sua melhor e mais completa solução",
+
+    "cfNavbar" : "Conferências Universidade Autónoma de Lisboa",
+    "cfStartDate" : "Data início:",
+    "cfEndDate" : "Data Fim:",
+    "cfClass" : "Sala:",
+    "cfSignUp" : "Inscreva-se",
+
+    "rsFillTheForm" : "Preencha o formulário",
+    "rsName" : "Nome",
+    "rsSurname" : "Apelido",
+    "rsInstituition" : "Instituição",
+    "rsSubmit" : "Enviar"
+}

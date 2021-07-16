@@ -1,0 +1,44 @@
+{
+    "thumbnail" : "Conference Registration System",
+    "navbarHome" : "Home",
+    "navbarAbout" : "About Us",
+    "navbarContact" : "Contact",
+    "navbarConferences" : "CONFERENCES",
+    "navbarAdmin" : "ADMINISTRATION",
+
+    "about" : "About",
+    "us" : "Us",
+
+    "whyUs" : "Why us",
+    "whyUsP" : "The Universidade Autónoma de Lisboa offers conferences on a varied and current theme to learn about the latest news of the present and future of the society.",
+    "whoAreWe" : "Who are we",
+    "whoAreWeP" : "The Conference Registration System is a platform of the Universidade Autónoma de Lisboa to register for any conference we offer, so that you are always up to date.",
+    "whatWeDo" : "What we do",
+    "whatWeDoP" : "Our researchers are constantly working on the most current issues in the social sciences, economics and technologies. We also hold conferences with companies that change the world.",
+    "ualP" : "The Autonomous University of Lisbon is always committed to the dissemination of knowledge.",
+
+    "informationsOf" : "Contact",
+    "informationsContact" : "Information",
+    "phone" : "Phone",
+    "informationsEmail" : "Email",
+    "address" : "Address",
+
+    "footerC" : "C",
+    "foorterOnference" : "onference",
+    "footerEgisto" : "egistration",
+    "footerS" : "S",
+    "footeYstem" : "ystem",
+    "footerSolution" : "Your best and most complete solution",
+
+    "cfNavbar" : "Universidade Autónoma de Lisboa Conferences",
+    "cfStartDate" : "Start date:",
+    "cfEndDate" : "End date:",
+    "cfClass" : "Class:",
+    "cfSignUp" : "Sign Up",
+
+    "rsFillTheForm" : "Fill the form",
+    "rsName" : "Name",
+    "rsSurname" : "Surname",
+    "rsInstituition" : "Institution",
+    "rsSubmit" : "Submit"
+}

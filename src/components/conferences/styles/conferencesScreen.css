@@ -1,0 +1,784 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+ p{
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .03rem;
+    color: black;
+
+}
+.cta{
+    display: inline-block;
+    padding: 10px 10px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #009FE3;
+    font: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin-top: 30px;
+    transition: .3s ease ;
+    transition-property: background-color, color;
+   
+    
+
+    
+}
+.cta:hover{
+    color: white;
+    background-color: #009FE3;
+    text-decoration: none;
+    
+}
+
+.brand h1{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+   
+
+        
+}
+
+.brand h1 span{
+    color: #009FE3;
+
+    
+        
+}
+
+/*header*/
+
+#header {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+ 
+    
+  
+
+    
+
+            
+}
+
+#header .header{
+    min-height: 8vh;
+    transition: .3s ease background-color;
+    background: #353535;
+    
+
+    
+    
+
+                
+}
+.header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    padding: 0 10px;
+
+
+            
+}
+
+#header .nav-list ul {
+    position: fixed;
+    list-style: none;
+    height: 100vh;
+    width: 100vw;
+    background: #242222;;
+    left: 100%;
+    text-align: center;
+    transition: .6s ease left;
+   
+    
+
+
+
+    
+}
+
+
+
+#header .nav-list ul a {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: #fff;
+    padding: 0.5rem 1rem;
+  
+  
+
+
+
+
+}
+
+#header .nav-list ul li a:hover{
+    color: #009FE3;
+    
+
+          
+} 
+
+.conf{
+    background-color: transparent;
+     padding: 8px 20px;
+     border: 1px solid white;
+     transition: all 0.3s ease-out;
+   }
+
+   .conf:hover{
+       background-color: white;
+       color: black;
+       transition: .2s ease ;
+   }
+
+
+
+#header .nav-list ul li #flag-PT{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    display: block;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#header .nav-list ul li #flag-PT:hover{
+    background-color: #009FE3;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s ease ;
+    
+} 
+
+
+#header .nav-list ul li #flag-UK {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    display: block;
+    color: #fff;
+    margin-left: -10px;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+}
+#header .nav-list ul li #flag-UK:hover{
+    background-color: #009FE3;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s ease ;
+    
+
+          
+} 
+
+
+/* fim header*/
+
+.section-title{
+    font-size: 4rem;
+    font-weight: 300;
+    color: rgb(75, 65, 65);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+
+  
+}  
+.section-title span{
+    color: #009FE3;
+      
+}
+
+
+a{
+    text-decoration: none;
+}
+.container2{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+/*inicio da seccao hero*/
+#hero{
+    background-image: url(../img/hero9.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    object-fit: contain;
+    justify-content: center;
+    display: flex;
+   
+
+
+}
+/*Criar a opacidade por cima da imagem*/
+#hero::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%),
+    linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+    opacity: .6;
+    z-index: -1;
+    
+}
+
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 60px;
+    mask-position: relative;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#hero p{
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+
+
+}
+
+#hero .hero{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: center;
+  
+
+
+}
+
+/*Inicio about me  secction*/
+
+
+#about .about  {
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+
+
+    
+}
+
+#about .col-left  {
+    width: 250px;
+    height: 360px;
+        
+}
+
+#about .col-right {
+
+    width: 100%;           
+}
+
+#about .col-right h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+}
+
+#about .col-right p {
+    margin-bottom: 20px;
+
+
+}
+
+#about .col-right .cta{
+    color: black;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: 2rem;
+
+
+}
+#about .col-left .about-img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 10px solid white;
+
+}
+
+
+
+#about .col-left .about-img::after{
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 30px;
+    height: 98%;
+    width: 98%;
+    border: 7px solid #009FE3;
+    z-index: -1;
+
+
+}
+
+/*fim do about me  secction*/
+
+
+
+/*Contact section*/
+#contact .contact{
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px;
+
+    
+
+}
+#contact h1::after{
+    content: '';
+    background-color: #0076A3;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+
+
+}
+#contact .contact-items{
+    width: 400px;    
+}
+#contact .contact-item{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 18px 0#00002c;
+    transition: .3s ease box-shadow;
+
+
+
+}
+
+#contact .contact-item:hover{
+    box-shadow: 0px 0px 10px 0 #00002c;
+
+    
+}
+#contact .icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #009FE3;
+    border-radius: 50% ;
+   
+
+}
+#contact .contact-info h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 5px;
+
+
+    
+}
+#contact .contact-info h1{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+
+
+       
+}
+
+
+/*fim Contact section*/
+/*inicio footer section*/
+#footer{
+    background: #353535;
+    
+
+
+           
+}
+#footer .footer{
+    min-height: 100px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    display: flex;
+    text-align: center;
+
+           
+}
+
+#footer h2{
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+               
+}
+#footer .social-icon{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+
+    
+               
+}
+
+#footer .social-item{
+    padding: 10px 10px;
+    font-size: 35px;
+    color: #0076A3;
+    transition: all .25s;
+  
+
+
+                   
+}
+#footer .social-item:hover{
+    color:#009FE3;
+  
+    
+  }
+
+#footer{
+    color: white;
+    font-size: 1.3rem;
+
+
+}
+
+.p{
+    color: #fff;
+
+    
+  
+  
+  
+  }
+
+/*fim footer section*/
+/*media query para tablet*/
+@media only screen and (min-width: 268px){
+    #hero h1 {
+        font-size: 30px;
+        text-align: center;
+     
+
+    }
+    #hero p {
+        font-size: 25px;
+        text-align: center;
+     
+
+    }
+    
+    
+
+}
+
+
+@media (max-width: 1200px){
+    #header .nav-list ul li #flag-UK {
+        display: none;
+    }
+    #header .nav-list ul li #flag-PT {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 768px){
+    .cta{
+        font-size: 2rem;
+        padding: 20px 60px;
+            
+ }
+
+
+    h1.section-title{
+        font-size: 3rem;
+
+    }
+
+ /*hero*/
+ #hero h1 {
+    font-size: 50px;
+    
+
+ 
+
+}
+
+
+
+    /*services*/
+
+    #services .service-botton .service-item{
+        flex-basis: 45%;
+        margin: 2.5%;
+
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px){
+ 
+    #header .nav-list ul {
+        position: initial;
+        display: block;
+        height: auto;
+        width: fit-content;
+        background-color: transparent;
+    
+     
+             
+        
+
+}
+
+
+    label #btn {
+        display: none;
+    }
+
+
+    #header .nav-list ul li{
+        display: inline-block;
+        margin-right:  10px;
+
+               
+
+
+   
+   
+ 
+}
+    #header .nav-list ul li a{
+        font-size: 1.2rem;
+                     
+}
+   
+ 
+
+    #header .nav-list ul a::after {
+        display: none;
+
+
+    }
+
+
+        
+}
+
+/*fim da media query*/
+
+
+/*servisesseeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    background-size: cover;
+    background-position: center;
+    color: #efefef; 
+    padding-top: 50px;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+ 
+}
+#services h1{
+    text-align: center;
+    color: #efefef;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+
+#services h1::after{
+    content: '';
+    background-color: #0076A3;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+
+
+}
+.services{
+    margin-top: 40px;
+}
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50% ;
+   
+}
+#services p{
+    font-size: 14px;
+    margin: 20px;
+    color: #CCC;
+    text-align: justify;
+
+
+
+       
+}
+.services .col-md-3:hover{
+    background-color:  #0076A3;
+    cursor: pointer;
+    transition: .7s;
+
+       
+}
+
+.container1{
+    min-height: 100vh;
+    width: 100%;
+
+           
+}
+
+
+
+label #btn ,
+label #cancel {
+    color: #fff;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px ;
+    cursor: pointer;
+   
+
+    
+  
+
+}
+label #a,
+label #b{
+    color: #fff;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px ;
+    cursor: pointer;
+   
+
+    
+  
+
+}
+ #a,
+ #b{
+    color: #fff;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px ;
+    cursor: pointer;
+
+}
+
+label #cancel {
+    display: none;
+}
+
+@media (max-width:1200px){
+    #check:checked ~ label #cancel {
+        display: block;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    
+    }
+    
+    #check:checked ~ label #btn {
+        display: none;
+    }
+    
+    
+}
+
+
+
+#check{
+    display: none;
+}
+
+#check1{
+    display: none;
+}
+/* .flag-PT, .flag-UK{
+    right: 200px;
+} */
